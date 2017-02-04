@@ -1,6 +1,13 @@
 body {
-   background-color: #c3e3f0;
-   color: #60307B;
+    background-color: #c3e3f0;
+    /*background-image: url("images/DSC_0347c.jpg");*/
+    color: #60307B;
+    font-family: Book Antiqua, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
 }
 #my-h-id {
     color: #0c417a;
@@ -8,6 +15,44 @@ body {
 #my-div-id {
     color: #0d7658;
 }
+#div-with-background {
+    background-image: url('images/IMG_1152.jpg'); 
+    height: 350px;
+    width: 500px;
+}
 .spin-span { 
     color: #cb1f5e;
+}
+h1, h2, h3{
+    font-family: Calisto MT, serif;
+    /* Was going to add a font-size here, but
+       that defeats the purpose of using headers */
+    /*font-size: 30px;*/
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+h1 {
+    text-transform: uppercase;
+}
+footer {
+    font-size: small;
+    font-style: italic;
+}
+ul {
+    list-style-type: circle;
+}
+#vh {
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+#vi {
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+#video {
+   color: #ff3399;
 }
