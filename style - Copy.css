@@ -1,9 +1,9 @@
 body {
-    background-color: #FDFDF0;
-    /*background-image: linear-gradient(to bottom, #FFFFFF, #c3e3f9);*/
+    background-color: #c3e3f9;
+    background-image: linear-gradient(to bottom, #FFFFFF, #c3e3f9);
     background-repeat: no-repeat;
     /*background-image: url("images/DSC_0347c.jpg");*/
-    color: #512e73;
+    color: #60307B;
     font-family: "Book Antiqua", serif;
     font-size: 16px;
     font-style: normal;
@@ -12,16 +12,16 @@ body {
     line-height: normal;
 }
 header {
-    background-color: #9ca5f8;
-    /*background-image: linear-gradient(to top, #fcf9ff, #ead4f4);*/
+    background-color: #c3e3f9;
+    background-image: linear-gradient(to top, #fcf9ff, #ead4f4);
     /*opacity: 0.9;*/
     position: fixed;
     width: 100%;
     height: 150px;
 }
 #container { 
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 17%;
+    margin-right: 17%;
     width: auto;
     min-width: 700px;
     padding-left: 30px; padding-top: 30px; padding-bottom: 30px;
@@ -31,10 +31,10 @@ main {
     margin-top: 150px;
 }
 #my-h-id {
-    color: #512e73;
+    color: #0c417a;
 }
 #my-div-id {
-    color: #512e73;    
+    color: #0d7658;    
 }
 #div-with-background {
     background-image: url('images/IMG_1152.jpg'); 
@@ -43,7 +43,7 @@ main {
     float: right;
 }
 .spin-span { 
-    color: #7f50ac;
+    color: #cb1f5e;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -66,15 +66,15 @@ h1 {
     text-transform: uppercase;
     background: url('images/flower.jpg') no-repeat left, url('images/redflower.jpg') no-repeat right;
     background-origin: content-box;
-    background-color: #8cf6f6;
+    background-color: #cceeff;
     /*background-image: url('images/redflower.jpg');
     background-origin: content-box;
 	background-repeat: no-repeat; background-position: right; */  
-	height: 80px; width: 60%; font-size: 3em;
+	height: 80px; width: 1250px; font-size: 3em;
 	padding-left: 30px; padding-right: 30px; padding-top: 30px; padding-bottom: 30px;
 	border-radius: 15px;
     opacity: 0.9;
-    box-shadow: 5px 5px 5px #419999;
+    box-shadow: 5px 5px 5px #c9d9e9;
     margin: auto;
 }
 footer {
@@ -84,8 +84,7 @@ footer {
     width: 100%;
     height: 125px;
     padding-top: 25px;
-    background-color: #9ca5f8;
-    color: #27143a;
+    background-color: #cceeff;
 }
 ul {
     list-style-type: circle;
@@ -101,7 +100,7 @@ ul {
     text-decoration: none;
 }
 #video {
-    color: #512e73;
+    color: #cb1f5e;
     float: right;
 }
 #silly{
@@ -135,6 +134,5 @@ h2 {
     text-align: center;
 }
 nav a:hover {
-    color: #419999;
+    color: #cb1f5e;
 }
-
