@@ -6,22 +6,43 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body>        
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
+  <![endif]-->    
+<body>
     <header>
         <h1 id="my-h-id">Sugar Belle &amp; Oberon</h1>
     </header>
-    <div id="container">
+    <div id="wrapper">
+
+    <nav>
+         <ul>
+            <li><a href="#my-div-id">Picture</a></li>
+            <li><a href="#rescue">Rescue</a></li>
+            <li><a href="#silly">Silly</a></li>
+            <li><a href="#more">More</a></li>
+
+        </ul>
+    </nav>
+    <!--<div id="container">-->
         <main>
-            <div id= "my-div-id">
-                <div id="div-with-background">
-                    <!-- Here's a div with a background as requested -->
+            <section>
+                <div id= "my-div-id">
+                    <div id="div-with-background">
+                        <!-- Here's a div with a background as requested -->
+                    </div>
+                    <h2>Cats = love</h2>
+                    <p><span class="spin-span">My husband and I have two cats named Sugar Belle and Oberon. Sugar is a sweet little battle tabby, and Oberon is a cute ball of white fluff with different colored eyes. Both of our cats are rescues. Since joining our family, they have become best friends, and spend most of their time being awesome.</span></p>
                 </div>
-                <p><span class="spin-span">My husband and I have two cats named Sugar Belle and Oberon. Sugar is a sweet little battle tabby, and Oberon is a cute ball of white fluff with different colored eyes. Both of our cats are rescues. Since joining our family, they have become best friends, and spend most of their time being awesome.</span></p>
+            </section>
+             <section>    
+                
                 <div id="rescue">
                     <h2>What's a Rescue Cat?</h2>
+                    <article>
                     <p>A rescue cat is a cat that was surrendered, or found (hence the term "rescued").<br> An organization will care for and foster the kitty until a forever home adopts him/her/them.<br> Sugar Belle was rescued from a high kill shelter in Kentucky, and Oberon was found inside a tree up North.</p>
-                <div>
-                    <nav>
+                    <div>
+                    <!--<nav>-->
                         <h3>Gentle Touch Animal Sanctuary is the organization from which we got Sugar Belle.</h3>
                         <ul>
                             <li><a id="vi" href="https://gt-as.org/">Gentle Touch Animal Sanctuary</a></li> 
@@ -30,50 +51,63 @@
                         <ul>
                             <li><a id="vh" href="http://felinerescue.org/">Feline Rescue</a> </li>      
                         </ul>
-                    </nav>
+                    <!--</nav>-->
+                    </div>
+                    </article>
                 </div>
-                </div>    
-            </div>
+                
+            </section>
+            <section>
             <div id= "silly">    
                 <div id="float">
-                    <div>
+                    <h2>Adopt a Cat Today</h2>
+                    <article>
+                        <div>
                         <h2>Cats Make Excellent Companions</h2>
                         <h3>They make a house feel more like a home.</h3>
                         <h3>They'll never let you forget when it's time for dinner.</h3>
-                    </div>
-                    <div>
+                        </div>
+                    </article>
+                    <article>
+                        <div>
                         <h2>Q&amp;A</h2>
                         <h3>Q: How many cats does is take to become a crazy cat lady?</h3>
                         <h3>A: A lot. Probably more than 3. Check your City's ordinances to find out what the legal limit is.</h3>
-                    </div>
-                    <div>
+                        </div>
+                    </article>
+                    <article>
+                        <div>
                         <h2>Cats Can Be Silly Creatures</h2>
                         <h3>Our cats sleep most of the day.</h3>
                         <h3>When they're not sleeping, they like to watch birds from the window.</h3>
                         <h3>Sometimes they're sweet, and offer to shovel the driveway.</h3>
-                    </div>            
+                        </div>
+                    </article>            
                 </div>
             </div>
-
-            <div class="thumb">
-                <a href="images/Sugar.jpg"><img src="images/thumb.jpg" height="100" width="100" alt="Sugar"><br>Sugar</a>
-            </div>
-            <div class="thumb">
-                <a href="images/Oberon.jpg"><img src="images/Obthumb.jpg" height="100" width="100" alt="Oberon"><br>Oberon</a>
-            </div>
-            <div id="video">
-                <h2>Below is a link to a video of our cats playing with paper.</h2>
-                <iframe width="480" height="270" src="https://www.youtube.com/embed/CQaZGAgna6g" allowfullscreen></iframe>
-            </div>
+            </section>
+            <section id="more">
+                <div class="thumb">
+                    <a href="images/Sugar.jpg"><img src="images/thumb.jpg" height="100" width="100" alt="Sugar"><br>Sugar</a>
+                </div>
+                <div class="thumb">
+                    <a href="images/Oberon.jpg"><img src="images/Obthumb.jpg" height="100" width="100" alt="Oberon"><br>Oberon</a>
+                </div>
+                <div id="video">
+                    <h2>Below is a link to a video of our cats playing with paper.</h2>
+                    <iframe width="480" height="270" src="https://www.youtube.com/embed/CQaZGAgna6g" allowfullscreen></iframe>
+                </div>
+            </section>
         </main>
-    </div>    
+    </div>     
     <footer>
         <h2>Thank You for Visiting</h2>
-        <a href="http://paletton.com/palette.php?uid=53W0D0kkHlldQYkixw6mUaSrL0Z">Paletton Color Palette Preview</a><br>
+        <!--<a href="http://paletton.com/palette.php?uid=53W0D0kkHlldQYkixw6mUaSrL0Z">Paletton Color Palette Preview</a><br>-->
         <small>
             <i>Copyright &copy; 2017 Melinda Patterson</i>
             <a href="mailto:Melinda@Patterson.com">E-mail: Melinda@Patterson.com</a>
         </small>
-    </footer>   
+    </footer> 
+  
 </body>
 </html>
